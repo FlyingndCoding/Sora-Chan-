@@ -1,7 +1,7 @@
 const {MessageEmbed} = require('discord.js')
 module.exports={
   name: '8ball',
-  description: 'Tells you answers to your fate!',
+  description: 'Tells you answers to your q-question!',
   category: 'Fun',
   minArgs: 1,
   maxArgs: -1,

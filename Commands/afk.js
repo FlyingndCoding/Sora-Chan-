@@ -7,7 +7,7 @@ module.exports = {
       try{
         let nickname = `[AFK] ${message.member.displayName}`
         await message.member.setNickname(nickname)
-       HKUtilities.successEmbed(message.channel, "You are now AFK!")
+       HKUtilities.successEmbed(message.channel, "You are now AFK! uwu")
       }catch(error) {
         HKUtilities.errorEmbed(message.channel, "I cannot change your nickname")
       }

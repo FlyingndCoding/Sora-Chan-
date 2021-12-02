@@ -5,9 +5,9 @@ module.exports = {
     execute({ message, args }) {
             const embed = new MessageEmbed().setColor("RANDOM").setDescription(`
             **Help Commands**\n
-            \`<fun\`  - **Lists all the fun commands**
-            \`<moderation\`  - **Lists all the moderation commands**
-            \`<utility\` - **List all the utility commands**
+            \`>fun\`  - **Lists all the fun commands**
+            \`>moderation\`  - **Lists all the moderation commands**
+            \`>utility\` - **List all the utility commands**
             `); 
     message.channel.send(embed);
     }

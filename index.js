@@ -21,7 +21,7 @@ client.on("ready", async () => {
     disabledDefaultCommands: ["language", "help"],
   })
     .setDefaultPrefix(">")
-    .setBotOwner("805705452628869120")
+    .setBotOwner("914121588511739965")
     .setMongoPath(process.env.MONGO_URI);
     
   await mongoose.connect(process.env.MONGO_URI, {

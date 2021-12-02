@@ -1,7 +1,7 @@
 const { MessageEmbed } = require('discord.js')
 module.exports={
   name: '100',
-  description: 'Chooses a random number from 1 to 100!',
+  description: 'C-chooses a random number from 1 to 100!',
   category: 'Fun',
   maxArgs: -1,
   callback: async({message,args,text})=>{
